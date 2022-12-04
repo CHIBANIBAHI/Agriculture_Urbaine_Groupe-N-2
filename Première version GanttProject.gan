@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-11-26" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-11-21" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3230" locale="fr_FR">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Nom" width="200" order="0"/>
         <field id="tpd4" name="Date de début" width="75" order="1"/>
         <field id="tpd5" name="Date de fin" width="75" order="2"/>
         <option id="filter.completedTasks" value="false"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="210" order="0"/>
-        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+        <field id="0" name="Nom" width="206" order="0"/>
+        <field id="1" name="Rôle par défaut" width="90" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -34,25 +34,25 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Etat de l'art sur l'Agriculture Urbaine" color="#8cb6ce" meeting="false" start="2022-11-28" duration="1" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true">
+        <task id="0" name="Etat de l'art sur l'Agriculture Urbaine" color="#8cb6ce" meeting="false" start="2022-12-05" duration="10" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true">
             <notes>
                 <![CDATA[Agriculture Urbaine
 definition
 developpement]]>
             </notes>
         </task>
-        <task id="6" name="Partie théorique" meeting="false" start="2022-11-28" duration="1" complete="0" expand="true">
-            <task id="1" name="Etude des espaces disponible" color="#8cb6ce" meeting="false" start="2022-11-28" duration="1" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
-            <task id="2" name="modèles de serres adaptables" color="#8cb6ce" meeting="false" start="2022-11-28" duration="1" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
-            <task id="3" name="Recherche sur les plantes" color="#8cb6ce" meeting="false" start="2022-11-28" duration="1" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="Partie théorique" color="#000000" meeting="false" start="2022-12-05" duration="20" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true">
+            <task id="1" name="Etude des espaces disponible" color="#8cb6ce" meeting="false" start="2022-12-05" duration="20" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+            <task id="2" name="modèles de serres adaptables" color="#8cb6ce" meeting="false" start="2022-12-05" duration="20" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Recherche sur les plantes" color="#8cb6ce" meeting="false" start="2022-12-05" duration="20" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="7" name="Partie Pratique" meeting="false" start="2022-11-28" duration="1" complete="0" expand="true">
-            <task id="4" name="système de régulation" meeting="false" start="2022-11-28" duration="1" complete="0" expand="true"/>
-            <task id="8" name="Site web" color="#8cb6ce" meeting="false" start="2022-11-28" duration="1" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
-            <task id="9" name="Maquette" color="#8cb6ce" meeting="false" start="2022-11-28" duration="1" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Partie Pratique" meeting="false" start="2022-12-15" duration="26" complete="0" expand="true">
+            <task id="4" name="système de régulation" color="#8cb6ce" meeting="false" start="2022-12-15" duration="20" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="Site web" color="#8cb6ce" meeting="false" start="2022-12-26" duration="15" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Maquette" color="#8cb6ce" meeting="false" start="2022-12-30" duration="15" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="10" name="Ressources Bibliographique" meeting="false" start="2022-11-28" duration="1" complete="0" expand="true"/>
-        <task id="11" name="Rapport des réunion" meeting="false" start="2022-11-28" duration="1" complete="0" expand="true"/>
+        <task id="10" name="Ressources Bibliographique" color="#8cb6ce" meeting="false" start="2022-12-05" duration="30" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Rapport des réunion" color="#8cb6ce" meeting="false" start="2022-11-28" duration="1" complete="0" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Yasmine" function="Default:0" contacts="" phone=""/>
