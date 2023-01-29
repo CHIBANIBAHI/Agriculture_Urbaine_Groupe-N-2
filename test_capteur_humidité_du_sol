@@ -1,0 +1,20 @@
+// test capteur humidité du sol
+
+int sensorPin = A0; //definir la variable pour stocker pin du capteur
+int sensorValue = 0; //definir la variable pour stocker la valeur du capteur
+
+void setup() {
+  Serial.begin(9600); //debut communication série
+
+}
+
+void loop() {
+  sensorValue = analogRead(sensorPin); // stocker valeurs du capteurs dans la variable "sensorValue" 
+  Serial.print("Humidité du sol: ");
+  Serial.println(sensorValue); //Print sensor values 
+  // sortie entre 0 et 1023
+  // 0-300 : sol sec
+  //300-700 : sol humide
+  //>700 : eau
+  delay(1000);
+}
