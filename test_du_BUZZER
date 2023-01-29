@@ -1,0 +1,13 @@
+// test du buzzer
+void setup() {
+  pinMode(WIO_BUZZER, OUTPUT); //définir la pin du buzzer comme sortie (output)
+}
+
+void loop() {
+  //faire sonner  le buzzer pendant 1 seconde 
+  analogWrite(WIO_BUZZER, 150); 
+  delay(1000); 
+  //mettre en silence le buzzer pendant 1 seconde 
+  analogWrite(WIO_BUZZER, 0);
+  delay(1000);
+}
