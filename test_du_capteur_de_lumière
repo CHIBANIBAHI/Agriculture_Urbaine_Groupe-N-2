@@ -1,0 +1,14 @@
+// test capteur de lumière
+void setup() {
+  pinMode(WIO_LIGHT, INPUT); //définir la pin du capteur de lumière comme entrée (input)
+  Serial.begin(9600); //début Communication Série
+
+}
+
+void loop() {
+  int light = analogRead(WIO_LIGHT); //Stocker les valeur du capteur de lumière dans la variable  "light" 
+  Serial.print("Valeur de lumière: ");
+  Serial.println(light);
+  delay(200);
+
+}
